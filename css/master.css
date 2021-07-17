@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+html{
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body{
+  background-image: linear-gradient(to bottom right, #180022, #000c31);
+  background-attachment: fixed;
+  font-family: 'Inter', sans-serif !important;
+}
+
+a:not(.nav-link){
+  color: #D790FF;
+  font-weight: 600;
+}
+
+a:not(.nav-link):hover{
+  text-decoration: none;
+  color: #ECCAFF;
+}
+
+
+/* Navbar */
+.navbar, .navbar #title{font-size: 22px;}
+
+.navbar-brand img{height: 48px;}
+
+@media screen and (max-width: 991px){.navbar, .navbar #title{font-size: inherit;}}
